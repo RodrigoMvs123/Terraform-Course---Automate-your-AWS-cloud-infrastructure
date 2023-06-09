@@ -1,0 +1,21 @@
+main.tf
+provider “aws” {
+       region           = us-east-1
+       access_key  = “AKIAJTTSSUF2PB6HDCCA
+       secrete_key  = “ucQFWfA/ Xw/ xLUZKQqXFin0pxSB54N21B8epPjLD”  
+}
+
+resource “aws_vpc” “first-vpc” {
+       cidr_block = “10.0.0.0/16”
+              tags = {
+                     Name = “production”
+       }
+}
+
+resource “aws_subnet” “subnet-1” {
+       vpc_id       = aws_vpc.first-vpc.id
+       cidr_block = “10.0.1.0/24”
+       tags = {
+              Name = “prod-subnet” 
+       }
+}
