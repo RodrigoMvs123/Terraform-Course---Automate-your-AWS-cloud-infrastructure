@@ -4,6 +4,7 @@ https://www.youtube.com/watch?v=SLB_c_ayRMo&list=RDCMUC8butISFwT-Wl7EV0hUK0BQ&st
 
 https://github.com/RodrigoMvs123/Terraform-Course---Automate-your-AWS-cloud-infrastructure/blob/main/README.md?plain=1
 
+https://github.com/RodrigoMvs123/Terraform-Course---Automate-your-AWS-cloud-infrastructure/blame/main/README.md
 
 Create an aws account 
 https://aws.amazon.com/?nc1=h_ls
