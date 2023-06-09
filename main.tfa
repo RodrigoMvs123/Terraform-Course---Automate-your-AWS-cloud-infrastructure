@@ -1,0 +1,20 @@
+main.tf
+provider “aws” {
+       region           = us-east-1
+       access_key  = “AKIAJTTSSUF2PB6HDCCA
+       secrete_key  = “ucQFWfA/ Xw/ xLUZKQqXFin0pxSB54N21B8epPjLD”  
+}
+
+#resource “aws_instance” “my-first-server” {
+#       ami                = “ami-085925f297f89ce1”
+#       instance type = “t2 micro”
+#             tags = {
+#                     #  Name = “ubuntu”
+#       }
+# }
+
+#resource “<provider>_<resource_type>” “name” {
+#       config options …
+#       key = “value”
+#       key2 = “another value”
+# }
